@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "expo-updates": "^0.28.17",
+    "expo": "~53.0.20",
+    "react": "19.0.0",
+    "react-native": "0.79.5"
+  },
+  "name": "2 T VANAMM BILLING SOFTWARE",
+  "version": "1.0.0",
+  "scripts": {
+    "android": "expo run:android",
+    "ios": "expo run:ios"
+  }
+}

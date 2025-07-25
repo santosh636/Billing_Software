@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "2 T VANAMM BILLING SOFTWARE",
+    "slug": "2t-vanamm-billing",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.santosh_1255.x2tvanammbillingsoftware",
+      "versionCode": 3
+    },
+    "plugins": ["expo-updates"],
+    "extra": {
+      "eas": {
+        "projectId": "c030fa2a-f497-489a-96ad-51a7b26a09f6"
+      }
+    }
+  }
+}
