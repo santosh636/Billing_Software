@@ -4,11 +4,6 @@ buildscript {
   repositories {
     google()
     mavenCentral()
-
-    maven {
-      url "http://jcenter.bintray.com/"
-      allowInsecureProtocol = true
-    }
   }
   dependencies {
     classpath('com.android.tools.build:gradle')
@@ -28,8 +23,8 @@ def reactNativeAndroidDir = new File(
 allprojects {
   repositories {
     maven {
-      url "http://jcenter.bintray.com/"
-      allowInsecureProtocol = true
+      // All of React Native (JS, Obj-C sources, Android binaries) is installed from npm
+      url(reactNativeAndroidDir)
     }
 
     google()
